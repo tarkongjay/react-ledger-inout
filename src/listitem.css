@@ -1,0 +1,38 @@
+.exit{
+ border-right: 5px red solid;
+}
+.input{
+    border-right: 5px rgb(37, 252, 66) solid;
+   }
+   ul{
+    list-style-type:none;
+
+   font-size: 20px;
+   text-align: center;
+   padding: 0;
+
+}
+
+ul li{
+    background-color: var(--color2);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 17px;
+    margin: 12px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+ul li:hover{
+    background-color: var(--color1);
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 17px;
+    margin: 12px;
+    border-radius: 5px;
+    animation: fadeIn 1s;
+}

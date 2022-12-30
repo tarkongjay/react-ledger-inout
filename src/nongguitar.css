@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+:root {
+    --color1: rgb(32, 32, 32);
+    --color2: white;
+    --color3: gray;
+  }
+  *{
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+  }
+  body{
+    margin: 0;
+    background-color: whitesmoke
+    
+  }
+  .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .linkrouter{
+    background-color: var(--color1);
+text-align: center;
+margin: 0;
+padding: 10px;
+  }
+  .linkrouter a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+  }

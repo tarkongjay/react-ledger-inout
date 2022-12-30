@@ -1,0 +1,21 @@
+.report-div{
+padding: 15px;
+margin: 15px 0px;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.report-div>div{
+   flex: 1;
+   text-align: center ;
+    }
+.report-div>div:first-of-type{
+border-right: 2px solid #dedede;
+         }
+.text-income{
+    color: rgb(3, 216, 3);
+}
+.text-outcome{
+    color: rgb(250, 52, 2);
+}
